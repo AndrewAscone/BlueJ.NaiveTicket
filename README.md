@@ -70,11 +70,11 @@ in the outer wrapper of a class?
 * Edit the source of the `TicketMachine` class to make the change and then close the editor window.
 	* Do you notice a change in the class diagram?
 
-	All of the colored groupings denoting the methods went away
+	Crossed red lines appeared on the TicketMachine part of the diagram
 	
 	* What error message do you get when you now press the compile button?
 
-	"<identifier> expected"
+	"< identifier > expected"
 	"class, interface, enum, or record expected"
 	
 	* Do you think this message clearly explains what is wrong?
@@ -98,7 +98,7 @@ in the outer wrapper of a class?
 ### Exercise 2.10
 * Do you notice any features of the constructor that make it significantly different from the other methods of the class?
 
-	It has the same name as the class
+It has the same name as the class
 	
 ### Exercise 2.11
 * What do you think is the type of each of the following fields?
@@ -108,7 +108,7 @@ private int count;
 private Student representative;
 private Server host;
 ```
-	integer, object, object
+integer, object, object
 
 ### Exercise 2.12
 * What are the names of the following fields?
@@ -118,7 +118,7 @@ private boolean alive;
 private Person tutor;
 private Game game;
 ```
-	alive, tutor, game
+alive, tutor, game
 	
 ### Exercise 2.13
 
@@ -129,13 +129,16 @@ private int price;
 ```
 does it matter which order the three words appear in?
 	
-	Yes, the order of the declaration is important
+Yes, the order of the declaration is important
 	
 * Edit the `TicketMachine` class to try different orderings. After each change, close the editor.
 	* Does the appearance of the class diagram after each change give you a clue as to whether or not other orderings are
 possible?
-	* Check by pressing the compile button to see if there is an error message.
-	* Make sure that you reinstantiate the original version after your experiments!
+
+When changing the ordering of the methods, the diagram box for TicketMachine denotes a need to compile the new changes, but once compiled, doesn't show any issue with the reordering
+
+* Check by pressing the compile button to see if there is an error message.
+* Make sure that you reinstantiate the original version after your experiments!
 
 ### Exercise 2.14
 * Is it always necessary to have a semicolon at the end of a field declaration?
@@ -169,7 +172,7 @@ It has two parameters, and the types are 'String' and 'double'
 * Can you guess what types some of the `Book` class’s fields might be?
 * Can you assume anything about the names of its fields?
 	
-	Other possible types might be String, int, double, char
-	Possible fields other than title and price might be author, editionNumber, yearPublished, bookCoverColor, languageOfText
+Other possible types might be String, int, double, char
+Possible fields other than title and price might be author, editionNumber, yearPublished, bookCoverColor, languageOfText
 
 READ upto and INCLUDING section 2.15 of this chapter.
